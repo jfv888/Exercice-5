@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Exercice 5</name>
+    </assembly>
+    <members>
+        <member name="T:Exercice_5.Rectangle">
+            <summary>
+            Cette classe est utilisé pour la création et modification de rectangles.
+            <code>
+                Rectangle rectangle = new Rectangle(1, 2);
+                rectangle.SetRectangleHeight(1);
+                rectangle.SetRectangleLength(2);
+                rectangle.GetPerimeter();
+            </code>
+            </summary>
+        </member>
+        <member name="M:Exercice_5.Rectangle.#ctor(System.Int32,System.Int32)">
+            <summary>
+            Ce constructeur nous permet de créer un nouveau rectangle en receuillant une height et une length.
+            </summary>
+            <param name="height"></param>
+            <param name="length"></param>
+        </member>
+        <member name="M:Exercice_5.Rectangle.SetRectangleHeight(System.Int32)">
+            <summary>
+            Cette fonction nous permet de déterminer une nouvelle height pour notre rectangle.
+            </summary>
+            <param name="height"></param>
+        </member>
+        <member name="M:Exercice_5.Rectangle.SetRectangleLength(System.Int32)">
+            <summary>
+            Cette fonction nous permet de déterminer une nouvelle length pour notre rectangle.
+            </summary>
+            <param name="length"></param>
+        </member>
+        <member name="M:Exercice_5.Rectangle.GetPerimeter">
+            <summary>
+            Cette fonction nous retourne le périmetre de notre rectangle.
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
